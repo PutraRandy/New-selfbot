@@ -41,7 +41,7 @@ class LINE:
       raise Exception("invalid arguments")
 
     self.authToken = self.Talk.authToken
-    self._headers = {'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 'X-Line-Access': self.authToken, 'User-Agent': 'Line/1.7.14'}
+    self._headers = {'X-Line-Application':'DESKTOPMAC 10.10.2-YOSEMITE-x64','X-Line-Access': self.authToken, 'User-Agent': 'Line/7.14.0 iPad5'}
     self.cert = self.Talk.cert
     self._headers = {
               'X-Line-Application': 'CHROMEOS\t1.7.14\tChrome_OS\t1', 
