@@ -22,7 +22,7 @@ else:
     import urllib.parse
 
 cl = LINETCR.LINE()
-cl.login(token="(Isi TOKEN Kamu)")
+cl.login(token="EouHURb1dE8Vm1Zg0HD2.lfqattBPKcf6dYuOZXQhSG.JWIERDDdBTWLlIdtGhEdh53hOfnaP1dr1r1BBc3ssco=")
 cl.loginResult()
 
 print "==================[Login Success]==================="
@@ -479,7 +479,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = cl.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Fahmi Nya Lagi Off Kalau Penting Pc Aja "]
+                     balas = ["anu Lagi Off Kalau Penting Pc Aja "]
                      ret_ = "[Auto Respond] " + random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
